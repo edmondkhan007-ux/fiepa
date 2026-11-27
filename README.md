@@ -9,6 +9,7 @@ FiePa is being developed to help tenants, students and landlords organise housin
 - Email magic-link sign-in with Supabase Auth.
 - Protected dashboard routes with verified Supabase claims.
 - Submit a housing concern and view the signed-in user's own reports.
+- Landlord property page to create and review owned property records.
 - Initial database tables for profiles, properties, tenancies, rent receipts, complaints, evidence, disputes and rent-assessment preparation.
 - Row Level Security and least-privilege table permissions.
 
@@ -61,4 +62,4 @@ The current database uses RLS on all application tables. Anonymous table access 
 
 ## Not production-complete yet
 
-The current code is a foundation, not a finished housing marketplace or dispute-resolution service. Role-request/approval screens, landlord property management UI, tenancy invitations and acceptance, digital agreements, receipt workflows, secure evidence storage, moderation tools, fair-rent data, accessibility testing and end-to-end tests remain to be built and tested before public launch.
+The current code is an MVP foundation, not a finished housing marketplace or dispute-resolution service. Role-request/approval screens, tenancy invitations and acceptance, digital agreements, receipt workflows, secure evidence storage, moderation tools, fair-rent data, accessibility testing and end-to-end tests remain to be built and tested before public launch.
